@@ -3,6 +3,7 @@
     "name": "Med Study AI",
     "description": "A web app that helps medical students study for their exams by providing study notes, recall flashcards, and USMLE style questions.",
     "year": 2025,
+    "kind": "fun",
     "tech": ["React", "Material UI", "FastAPI", "PostgreSQL", "Celery", "Redis"],
     "image": "assets/medstudyai.png",
     "links": { "github": "https://github.com/HowardQian201/med_study", "demo": "https://medstudyai.com" }
@@ -11,6 +12,7 @@
     "name": "Martel Assassins",
     "description": "App to organize the annual Assassins game at Martel College of Rice University, where players compete to be the last one standing.",
     "year": 2023,
+    "kind": "fun",
     "tech": ["Python", "JSON", "PyQT5", "DSA"],
     "image": "assets/martelassassins.png",
     "links": { "github": "https://github.com/HowardQian201/Martel_Assassins" }
@@ -19,6 +21,7 @@
     "name": "Zetamac Player",
     "description": "A python Selenium app that automatically plays the Zetamac arithmetic game with extreme accuracy and speed.",
     "year": 2022,
+    "kind": "fun",
     "tech": ["Selenium", "Python"],
     "image": "assets/zetamac.png",
     "links": { "github": "https://github.com/HowardQian201/zetamac", "site": "https://zetamac.com" }

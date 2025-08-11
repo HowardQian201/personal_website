@@ -423,10 +423,13 @@
       p.links?.paper ? `<a class="badge" href="${p.links.paper}" target="_blank" rel="noopener">Paper</a>` : '',
       p.links?.site ? `<a class="badge" href="${p.links.site}" target="_blank" rel="noopener">Site</a>` : '',
     ].join('');
+    const kindLabelRaw = typeof p.kind === 'string' ? p.kind : (typeof p.type === 'string' ? p.type : '');
+    const kindLabel = kindLabelRaw ? String(kindLabelRaw).toLowerCase() : '';
+    const kindHtml = kindLabel ? `<span class=\"tag tag-compact\">${escapeHtml(kindLabel)}</span>` : '';
     return `
       <article class="card card-tilt">
         ${media}
-        <div class="card-title">${escapeHtml(p.name || '')}</div>
+        <div class="card-title project-card-title"><span class="title-text">${escapeHtml(p.name || '')}</span>${kindHtml}</div>
         <p class="pub-meta">${escapeHtml(p.description || '')}</p>
         ${links ? `<div class="pub-actions">${links}</div>` : ''}
         ${tech ? `<div class="pub-actions">${tech}</div>` : ''}
