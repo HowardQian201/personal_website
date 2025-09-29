@@ -1,6 +1,9 @@
 
 
 
+In prod:
+Hard refresh
+ctrl + shft + r 
 
 Run locally:
 py -m http.server 8000
