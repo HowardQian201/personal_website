@@ -1,1 +1,6 @@
-fix images being blurry
+
+
+
+
+Run locally:
+py -m http.server 8000
