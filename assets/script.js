@@ -362,7 +362,8 @@
       + linkBadge('Scholar', p.links?.scholar) 
       + linkBadge('Code', p.links?.code)
       + linkBadge('Slides', p.links?.slides)
-      + linkBadge('Video', p.links?.video);
+      + linkBadge('Video', p.links?.video)
+      + linkBadge('Site', p.links?.site);
     const authorsLine = p.authors ? `<div class="pub-authors">${formatAuthors(p.authors)}</div>` : '';
     const venueLine = p.venue ? `<div class="pub-venue"><em>${escapeHtml(p.venue)}</em></div>` : '';
     const yearLine = (p.year !== undefined && p.year !== null) ? `<div class="pub-year"><u>${escapeHtml(String(p.year))}</u></div>` : '';

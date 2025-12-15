@@ -1,5 +1,13 @@
 [
   {
+    "name": "Face Blur",
+    "description": "A web app that automatically blurs faces in social media content to protect privacy.",
+    "year": 2025,
+    "tech": ["FastAPI", "React", "YOLO"],
+    "image": "assets/faceblur.png",
+    "links": { "demo": "https://faceblur.it.com/" }
+  },
+  {
     "name": "Med Study AI",
     "description": "A web app that helps medical students study for their exams by providing study notes, recall flashcards, and USMLE style questions.",
     "year": 2025,

@@ -33,6 +33,7 @@
     "image": "assets/riseg.png",
     "tags": ["interactive perception", "object segmentation"],
     "links": { 
+      "site": "https://howardqian201.github.io/RISegProjectPage/",
       "pdf": "https://arxiv.org/pdf/2403.01731", 
       "arxiv": "https://arxiv.org/abs/2403.01731", 
       "video": "https://www.youtube.com/watch?v=K_FU310Jm1k"
