@@ -7,6 +7,7 @@
     "image": "assets/rtriseg.png",
     "tags": ["interactive perception", "object segmentation", "real-time"],
     "links": {
+      "site": "https://howardqian201.github.io/rt-RISegProjectPage/",
       "pdf": "https://arxiv.org/pdf/2507.10776",
       "arxiv": "https://arxiv.org/abs/2507.10776",
       "video": "https://www.youtube.com/watch?v=--TtC88GT_A"
