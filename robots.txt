@@ -1,6 +1,6 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://<username>.github.io/<repo>/sitemap.xml
+Sitemap: https://howardqian201.github.io/personal_website/sitemap.xml
 
 
